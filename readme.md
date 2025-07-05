@@ -72,8 +72,9 @@ docker -v
     ```
     After the execution of exit command our container will stop running and back to system CLI
 
-    
+
 - docker ps 
+
      To check all the running container (ps - process status)
      ```bash 
      docker ps
