@@ -174,3 +174,20 @@ docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older -p8080:3306 mysql
 Container post may be same but local host machine port must be different.
 
 ## Troubleshoot Commands
+
+These commands are use to check errors, which helps us to identify the root cause of the problem.
+
+- docker logs CONT_ID or CONT_NAME
+    To check logs of a specific container
+```bash
+    docker logs mysql-latest
+    
+    or 
+
+    docker logs 29d086193144
+```
+
+- docker exec -it CONT_ID/bin/bash
+
+- docker exec -it CONT_ID/bin/sh
+
