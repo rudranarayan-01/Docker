@@ -206,5 +206,10 @@ In some container bash is replaced as sh, so to use the terminal inside a contai
 
                 Application Layer ---- >>> OS kernel ---->>> Hardware
 
-DOCKER -> Only virtualise application layer by using OS kernel
+DOCKER -> Only virtualise application layer by using OS kernel, for this docker is faster, light weight
+
 VM -> Virtualise OS kernel and Application layer
+
+Docker desktop contains a small linux based virtual machine which helps us to run our applications.
+
+## Developing with Docker
