@@ -10,3 +10,10 @@
 - A read-only template that contains the application code, runtime, system tools, libraries, and dependencies needed to run an application. 
 - It's a blueprint for creating Docker containers, which are isolated instances of an application and its environment.
 
+## Installation 
+- Install docker from official website and it's easy and just click and install 
+- After installation check is it installed suuccessfully on our system by typing in cmd 
+``` bash
+docker
+docker -v 
+```
