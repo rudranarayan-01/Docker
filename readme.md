@@ -127,5 +127,5 @@ Here we are trying to pull mysql with specific tag or specific version
 ```bash
     docker pull mysql:8.0
 ```
-
 ![version](image-5.png)
+
