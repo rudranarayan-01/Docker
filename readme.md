@@ -240,6 +240,8 @@ docker run -d -p27017:27017 --name mongo --network mongo-network -e MONGO_INITDB
 
 Mongo is pulled sucessfully and connected to port number 27017, with username ```admin``` and password ```qwerty```
 
+Now its time to pull mongo-express with the same network
 ```bash 
-
+    docker run -d -p8081:8081 --name mongo-express --network mongo-network -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=qwerty -e ME_CONFIG_MONGODB_URL="mongodb://admin:qwerty@mongo:27017" mongo-express
 ```
+![mongo-express](image-12.png)
