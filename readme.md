@@ -236,6 +236,8 @@ docker network create mongo-network
 ```bash
 docker run -d -p27017:27017 --name mongo --network mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=qwerty mongo
 ```
+![mongo](<Screenshot 2025-07-05 184643.png>)
+
 Mongo is pulled sucessfully and connected to port number 27017, with username ```admin``` and password ```qwerty```
 
 ```bash 
