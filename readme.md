@@ -253,3 +253,13 @@ username -> admin
 password -> pass
 
 ![admin](image-13.png)
+
+Now we have a node js test application we run this 
+```bash
+node server.js
+```
+
+Goto localhost:5050 and fill the details and refresh the mongo-express dashboard we have a user list 
+![users](image-14.png)
+
+Now we are sucessfully connected with docker container.
