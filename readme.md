@@ -112,18 +112,18 @@ docker -v
 ![alt text](image-4.png)
 
 ## Versions in docker Images
-    Docker versions are required when we want to pull a specific version of a image (image with specific tag).
-    Generally if we are pulling a image from docker hub without any tag then it will pull the latest version (image with latest tag) of that image.
+Docker versions are required when we want to pull a specific version of a image (image with specific tag).
+Generally if we are pulling a image from docker hub without any tag then it will pull the latest version (image with latest tag) of that image.
 
-    ```bash 
-        docker pull mysql
-    ``` 
-    It will pull the mysql with latest tag.
+ ```bash 
+    docker pull mysql
+``` 
+It will pull the mysql with latest tag.
 
 
-    Here we are trying to pull mysql with specific tag or specific version
-    ```bash
-        docker pull mysql:8.0
-    ```
+Here we are trying to pull mysql with specific tag or specific version
+```bash
+    docker pull mysql:8.0
+```
 
-![alt text](image-5.png)
+![version](image-5.png)
