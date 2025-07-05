@@ -22,8 +22,18 @@ docker -v
 - Docker hub contains all the public collections of docker images https://hub.docker.com/
 
 ## Docker Commands 
+
 - docker pull IMAGE_NAME
+    It is used to pull image from docker hub 
+    ```bash
+         docker pull hello-world:nanoserver-ltsc2025
+    ```
 - docker images
+    It shows all the available images 
+    ```bash 
+        docker images
+    ```
+
 - docker run -it IMAGE_NAME
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
