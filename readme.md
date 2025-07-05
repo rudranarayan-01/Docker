@@ -130,3 +130,10 @@ Here we are trying to pull mysql with specific tag or specific version
 ```
 ![version](image-5.png)
 
+
+- docker run -d IMAGE_NAME
+ Here -d refers to dettach mode which simply refers to we can run a container in background 
+
+ NB: By default all the container runs in attach mode 
+
+ - 
