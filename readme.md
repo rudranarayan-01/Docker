@@ -71,6 +71,15 @@ docker -v
         exit
     ```
     After the execution of exit command our container will stop running and back to system CLI
+- docker ps 
+     To check all the running container (ps - process status)
+     ```bash 
+     docker ps
+    ```
+    To check all the available container 
+    ```bash 
+    docker ps -a 
+    ```
 
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
