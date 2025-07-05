@@ -163,5 +163,10 @@ Before run this first remove the container if already exists
 ```bash
 docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-latest -p8080:3306 mysql
 ```
-
 ![alt text](image-8.png)
+
+If once a host machine port binded with a container port then the host machine port will not bind with any container.
+```bash
+docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older -p8080:3306 mysql:8.0
+```
+![alt text](image-9.png)
