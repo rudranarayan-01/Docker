@@ -156,3 +156,10 @@ This layered approach offers significant advantages, including efficient storage
 When we pulling two version from a single image then we have some commn layers. During installation it will show that layers alredy exists.
 
 ## Port Binding
+Mapping host machine port with container port.
+
+```bash
+docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-latest -p8080:3306 mysql
+```
+
+![alt text](image-8.png)
