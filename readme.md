@@ -201,3 +201,10 @@ We can exit from interractive cli using ```exit ``` command
 - docker exec -it CONT_ID/bin/sh
 
 In some container bash is replaced as sh, so to use the terminal inside a container we can use this command also.
+
+## DOCKER and VIRTUAL MACHINE
+
+                Application Layer ---- >>> OS kernel ---->>> Hardware
+
+DOCKER -> Only virtualise application layer by using OS kernel
+VM -> Virtualise OS kernel and Application layer
