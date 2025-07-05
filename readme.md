@@ -98,3 +98,11 @@ Starting the container with container Id
 Stoppng the container with name
 ```bash 
     docker stop gallant_lovelace
+```
+
+- docker rmi IMAGE_NAME 
+    This command is used to remove or destroy image 
+    NB: To delete the image we need to destroy the container first
+
+- docker rm CONT_ID
+    Used to remove container 
