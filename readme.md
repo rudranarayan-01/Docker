@@ -50,9 +50,15 @@ docker -v
 
     Let's try some ubuntum commands 
     ```bash
-    ls
+        ls
     ```
-    ![alt text](image-1.png)
+    ![ls](image-1.png)
+
+    Let's create a directory inside ubuntu container 
+    ```bash 
+        mkdir DIR1
+    ```
+    ![dir](image-2.png)
 
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
