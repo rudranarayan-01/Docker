@@ -86,3 +86,15 @@ docker -v
 
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
+
+These two comands are used to start or stop the container 
+
+Starting the container with container Id 
+
+```bash
+    docker start e73ecd583380
+```
+
+Stoppng the container with name
+```bash 
+    docker stop gallant_lovelace
