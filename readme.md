@@ -136,4 +136,12 @@ Here we are trying to pull mysql with specific tag or specific version
 
  NB: By default all the container runs in attach mode 
 
- - 
+This is compulsury to pass a root password by using -e while running the mysql image. For more details please follow https://hub.docker.com/_/mysql
+
+```bash
+    docker run -d -e MYSQL_ROOT_PASSWORD=secret mysql
+```
+![sql](image-6.png)
+![alt text](image-7.png)
+
+ - docker run --name CONT_NAME -d IMAGE_NAME
