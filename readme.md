@@ -20,3 +20,10 @@ docker -v
 
 ## Docker Hub
 - Docker hub contains all the public collections of docker images https://hub.docker.com/
+
+## Docker Commands 
+- docker pull IMAGE_NAME
+- docker images
+- docker run -it IMAGE_NAME
+- dcoker start CONT_NAME or CONT_ID
+- dcoker stop CONT_NAME or CONT_ID
