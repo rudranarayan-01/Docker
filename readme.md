@@ -87,21 +87,22 @@ docker -v
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
 
-These two comands are used to start or stop the container 
+    These two comands are used to start or stop the container 
 
-Starting the container with container Id 
+    Starting the container with container Id 
+    ```bash
+        docker start e73ecd583380
+    ```
 
-```bash
-    docker start e73ecd583380
-```
+    Stoppng the container with name
+    ```bash 
+        docker stop gallant_lovelace
+    ```
 
-Stoppng the container with name
-```bash 
-    docker stop gallant_lovelace
-```
+- docker rmi IMAGE_NAME
 
-- docker rmi IMAGE_NAME 
     This command is used to remove or destroy image 
+
     NB: To delete the image we need to destroy the container first
 
 - docker rm CONT_ID
