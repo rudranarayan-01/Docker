@@ -212,4 +212,17 @@ VM -> Virtualise OS kernel and Application layer
 
 Docker desktop contains a small linux based virtual machine which helps us to run our applications.
 
+## Docker Network
+Docker has the ability to create isolated network which allows Docker containers to communicate with each other and with the outside world.
+
+```bash 
+docker network create NETWORK_NAME
+```
+
+To check available network in our system 
+```bash
+docker network ls
+```
+
+
 ## Developing with Docker
