@@ -45,6 +45,7 @@ docker -v
         docker pull ubuntu
         docker run -it ubuntu
     ```
+    ![docker image](image.png)
 
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
