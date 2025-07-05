@@ -126,4 +126,4 @@ docker -v
         docker pull mysql:8.0
     ```
 
-    ![alt text](image-5.png)
+![alt text](image-5.png)
