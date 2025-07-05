@@ -45,7 +45,14 @@ docker -v
         docker pull ubuntu
         docker run -it ubuntu
     ```
+    Now we are inside ubuntu container 
     ![docker image](image.png)
+
+    Let's try some ubuntum commands 
+    ```bash
+    ls
+    ```
+    ![alt text](image-1.png)
 
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
