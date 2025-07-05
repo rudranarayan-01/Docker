@@ -26,14 +26,25 @@ docker -v
 - docker pull IMAGE_NAME
     It is used to pull image from docker hub 
     ```bash
-         docker pull hello-world:nanoserver-ltsc2025
+         docker pull hello-world
     ```
 - docker images
     It shows all the available images 
     ```bash 
         docker images
     ```
+- docker run IMAGE_NAME
+    Used to buiild container from image
+    ```bash
+        docker run hello-world
+    ```
 
 - docker run -it IMAGE_NAME
+    Used to buiild container from image which will run in interractive mode 
+    ```bash
+        docker pull ubuntu
+        docker run -it ubuntu
+    ```
+
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
