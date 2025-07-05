@@ -158,6 +158,8 @@ When we pulling two version from a single image then we have some commn layers. 
 ## Port Binding
 Mapping host machine port with container port.
 
+Before run this first remove the container if already exists
+
 ```bash
 docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-latest -p8080:3306 mysql
 ```
