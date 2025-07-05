@@ -170,3 +170,7 @@ If once a host machine port binded with a container port then the host machine p
 docker run -d -e MYSQL_ROOT_PASSWORD=secret --name mysql-older -p8080:3306 mysql:8.0
 ```
 ![alt text](image-9.png)
+
+Container post may be same but local host machine port must be different.
+
+## Troubleshoot Commands
