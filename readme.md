@@ -66,5 +66,11 @@ docker -v
     ```
     ![env](image-3.png)
 
+    Let's exit from the container
+    ```bash 
+        exit
+    ```
+    After the execution of exit command our container will stop running and back to system CLI
+
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
