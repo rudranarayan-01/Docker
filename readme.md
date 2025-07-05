@@ -186,8 +186,15 @@ These commands are use to check errors, which helps us to identify the root caus
 
     docker logs 29d086193144
 ```
+![logs](image-10.png)
 
-- docker exec -it CONT_ID/bin/bash
+
+- docker exec -it CONT_ID or CONT_NAME bash
+This command is used to access terminal inside a container (it will be in interractive mode)
+```bash
+    docker exec -it mysql-latest bash
+```
+![alt text](image-11.png)
 
 - docker exec -it CONT_ID/bin/sh
-
+In some container bash is replaced as sh, so to use the terminal inside a container we can use this command also.
