@@ -196,7 +196,7 @@ This command is used to access terminal inside a container (it will be in interr
 ```
 ![alt text](image-11.png)
 
-We can exit from interractive cli using ```bash exit ``` command
+We can exit from interractive cli using ```exit ``` command
 
 - docker exec -it CONT_ID/bin/sh
 In some container bash is replaced as sh, so to use the terminal inside a container we can use this command also.
