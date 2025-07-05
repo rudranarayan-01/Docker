@@ -107,3 +107,5 @@ docker -v
 
 - docker rm CONT_ID
     Used to remove container 
+
+![alt text](image-4.png)
