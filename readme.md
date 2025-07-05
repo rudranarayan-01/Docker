@@ -145,3 +145,7 @@ This is compulsury to pass a root password by using -e while running the mysql i
 ![alt text](image-7.png)
 
  - docker run --name CONT_NAME -d IMAGE_NAME
+ It is used to run an image with custom name.
+``` bash
+docker run --name mysql-older -d mysql:8.0
+```
