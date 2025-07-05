@@ -60,5 +60,11 @@ docker -v
     ```
     ![dir](image-2.png)
 
+    Let's print different environment variables availbale inside ubuntu container
+    ```bash 
+        env
+    ```
+    ![env](image-3.png)
+
 - dcoker start CONT_NAME or CONT_ID
 - dcoker stop CONT_NAME or CONT_ID
