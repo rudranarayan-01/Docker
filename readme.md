@@ -224,5 +224,20 @@ To check available network in our system
 docker network ls
 ```
 
-
 ## Developing with Docker
+
+- Creating a network 
+``` bash 
+docker network create mongo-network
+```
+
+- Setting up mongo and mongo-express
+
+```bash
+docker run -d -p27017:27017 --name mongo --network mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=qwerty mongo
+```
+Mongo is pulled sucessfully and connected to port number 27017, with username ```admin``` and password ```qwerty```
+
+```bash 
+
+```
