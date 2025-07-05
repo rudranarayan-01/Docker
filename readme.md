@@ -251,6 +251,4 @@ Now its time to pull mongo-express with the same network
 username -> admin
 password -> pass
 
-![
-    
-](image-13.png)
+![admin](image-13.png)
