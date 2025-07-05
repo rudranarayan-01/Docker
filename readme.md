@@ -149,3 +149,10 @@ This is compulsury to pass a root password by using -e while running the mysql i
 ``` bash
 docker run --name mysql-older -d mysql:8.0
 ```
+
+## Docker Image Layers
+Docker images are built with a layered architecture, where each layer represents a filesystem change.
+This layered approach offers significant advantages, including efficient storage, faster builds, and easier version control.
+When we pulling two version from a single image then we have some commn layers. During installation it will show that layers alredy exists.
+
+## Port Binding
