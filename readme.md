@@ -275,3 +275,14 @@ yaml - yet another markup language
             - Easy to edit and modify
 
 Indentation is most require in ```yaml``` file
+
+![image](https://github.com/user-attachments/assets/262ba82f-2510-4f6d-8edc-be367d970e50)
+
+```bash
+    docker compose -f fileName.yaml ip -d
+```
+
+```bash
+    docker compose -f fileName.yaml down
+```
+
