@@ -320,4 +320,6 @@ So we create the user in same way as before
 This will remove all the container with network.
 
 ## Dockerizing our App
+Converting our ap to docker image then docker container.
 
+Test app --->> docker image --->> container
