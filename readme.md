@@ -288,3 +288,4 @@ This up command is used when we want to create container in dettach mode.
 ```
 This own command is used when we want to remove or delete container.
 
+Now we run this ```yaml``` file by following these instructions.
