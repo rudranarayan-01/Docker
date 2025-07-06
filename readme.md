@@ -289,3 +289,13 @@ This up command is used when we want to create container in dettach mode.
 This own command is used when we want to remove or delete container.
 
 Now we run this ```yaml``` file by following these instructions.
+
+1. It is necessary to check wheather the container already exists , if yes then delete it before running the ```yaml``` file.
+
+2.Then run the compose command to create container 
+```bash
+    docker compose -f mongodb.yaml up -d
+```
+![image](https://github.com/user-attachments/assets/d7553173-4278-4778-87ba-812f481604a3)
+
+3. 
