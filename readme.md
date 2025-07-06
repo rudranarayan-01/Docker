@@ -298,4 +298,13 @@ Now we run this ```yaml``` file by following these instructions.
 ```
 ![image](https://github.com/user-attachments/assets/d7553173-4278-4778-87ba-812f481604a3)
 
-3. 
+Now we can see that two container are running on the spesified port
+![image](https://github.com/user-attachments/assets/e2142081-1b85-4765-b483-cc8f8b086e98)
+
+
+3. Now we can test is the container running or not by going to the ```localhost:8081``` port.
+   Simillarly username will be ```admin``` and password will be ```pass```.
+![image](https://github.com/user-attachments/assets/5fc70c8f-61b5-4696-b94a-721bd857bcf1)
+
+We can see here there is no database with name ```datapirates```(we created before). It's because when we restart our container it became reset.
+
