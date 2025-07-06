@@ -266,3 +266,12 @@ Now we are sucessfully connected with docker container.
 
 ## Docker Compose 
 Docker compose is a tool for defining and running multicontainer application. 
+This will be done with the help of a ```.yaml``` file. 
+
+yaml - yet another markup language
+
+**Advantages** : 
+            - Standardize way of commands 
+            - Easy to edit and modify
+
+    Indentation is most require in ```yaml``` file
