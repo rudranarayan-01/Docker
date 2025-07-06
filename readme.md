@@ -281,8 +281,10 @@ Indentation is most require in ```yaml``` file
 ```bash
     docker compose -f fileName.yaml ip -d
 ```
+This up command is used when we want to create container in dettach mode.
 
 ```bash
     docker compose -f fileName.yaml down
 ```
+This own command is used when we want to remove or delete container.
 
