@@ -318,3 +318,6 @@ So we create the user in same way as before
     docker compose -f mongodb.yaml down
 ```
 This will remove all the container with network.
+
+## Dockerizing our App
+
