@@ -313,3 +313,8 @@ So we create the user in same way as before
    
 ![image](https://github.com/user-attachments/assets/de9b5e9b-795b-4508-bf89-fd18dd904a1f)
 
+5. If we want to remove the container with network.
+```bash
+    docker compose -f mongodb.yaml down
+```
+This will remove all the container with network.
