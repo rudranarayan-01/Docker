@@ -274,4 +274,4 @@ yaml - yet another markup language
             - Standardize way of commands 
             - Easy to edit and modify
 
-    Indentation is most require in ```yaml``` file
+Indentation is most require in ```yaml``` file
