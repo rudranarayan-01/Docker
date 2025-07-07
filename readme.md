@@ -387,3 +387,9 @@ Now to build a docker image from this file we need to run this command
 
 Now we can check the available images by typing ```docker images``` in terminal
 
+
+Now we can create a container from docker image
+
+```bash 
+    docker run testapp:1.0
+```
