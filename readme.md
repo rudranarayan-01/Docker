@@ -328,19 +328,25 @@ A Dockerfile is a plain text file containing a set of instructions used to build
 
 For mode you can follow https://spacelift.io/blog/dockerfile
 
-Important instruction of dockerfile
+### Important instruction of dockerfile
 
 - FROM
 Specifies the base image for the Docker image being built. It acts as the foundation upon which the rest of the image is built.
+```bash
     FROM <base_image>
+```
 
 - WORKDIR
 Sets the working directory inside the container for subsequent instructions like RUN, COPY, CMD, etc.
+```bash    
     WORKDIR <path>
+```
 
 - COPY
 Copies files and directories from the build context (your local machine) into the image.
+```bash
     COPY <src> <dest>
+```
 
 - RUN
 Executes shell commands during the image build process. These commands are run in new layers, and the results are committed to the image.
