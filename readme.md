@@ -403,3 +403,9 @@ Also we can run our container in interractive mode
 ```
 Now we can see that all the files are available inside our containeer.
 ![interactive mode](image-20.png)
+
+Now we can see that we have node_modules folder inside our container which we dont want. If we want to skip this folder during image building then we can just write ```RUN npm install``` inside the ```Dockerfile```.
+
+![node_modules](image-21.png)
+
+Let's exit from the interractive terminal of container by typing ```exit``` inside it and enter. Now we have three docker images(we can als check by typing ```docker images``` inside the terminal). To run this three terminals simultaneously we can use the compose.
