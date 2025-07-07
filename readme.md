@@ -327,3 +327,4 @@ Converting our ap to docker image then docker container.
 
 Test app --->> docker image --->> container
 >>>>>>> 775f9f8150e5c7cfbc05e5d73f20f725a3915416
+A Dockerfile is a plain text file containing a set of instructions used to build a Docker image.
