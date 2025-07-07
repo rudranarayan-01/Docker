@@ -347,18 +347,25 @@ Copies files and directories from the build context (your local machine) into th
 
 - RUN
 Executes shell commands during the image build process. These commands are run in new layers, and the results are committed to the image.
+```bash
     RUN <command>
+```
 
 - CMD
 Provides default instructions for running a container based on the image. It defines the command that will be executed when a container starts without any specific command-line arguments.
+```bash
     CMD <command>
+```
 
 - EXPOSE
 Informs Docker that the container listens on the specified network port at runtime. It's a form of documentation rather than a publishing mechanism.
+```bash
     EXPOSE <port>
+```
 
 - ENV
 Sets environment variables that can be used within the container.
+```bash
     ENV <name> <value>
-
+```
 
