@@ -393,3 +393,13 @@ Now we can create a container from docker image
 ```bash 
     docker run testapp:1.0
 ```
+
+![running image](image-19.png)
+
+Also we can run our container in interractive mode 
+
+```bash
+    docker run -it testapp:1.0 bash
+```
+Now we can see that all the files are available inside our containeer.
+![interactive mode](image-20.png)
