@@ -264,4 +264,66 @@ Goto localhost:5050 and fill the details and refresh the mongo-express dashboard
 
 Now we are sucessfully connected with docker container.
 
+<<<<<<< HEAD
 ## Docker Compose
+=======
+## Docker Compose 
+Docker compose is a tool for defining and running multicontainer application. 
+This will be done with the help of a ```.yaml``` file. 
+
+yaml - yet another markup language
+
+**Advantages** : 
+            - Standardize way of commands 
+            - Easy to edit and modify
+
+Indentation is most require in ```yaml``` file
+
+![image](https://github.com/user-attachments/assets/262ba82f-2510-4f6d-8edc-be367d970e50)
+
+```bash
+    docker compose -f fileName.yaml ip -d
+```
+This up command is used when we want to create container in dettach mode.
+
+```bash
+    docker compose -f fileName.yaml down
+```
+This own command is used when we want to remove or delete container.
+
+Now we run this ```yaml``` file by following these instructions.
+
+1. It is necessary to check wheather the container already exists , if yes then delete it before running the ```yaml``` file.
+
+2.Then run the compose command to create container 
+```bash
+    docker compose -f mongodb.yaml up -d
+```
+![image](https://github.com/user-attachments/assets/d7553173-4278-4778-87ba-812f481604a3)
+
+Now we can see that two container are running on the spesified port
+![image](https://github.com/user-attachments/assets/e2142081-1b85-4765-b483-cc8f8b086e98)
+
+
+3. Now we can test is the container running or not by going to the ```localhost:8081``` port.
+   Simillarly username will be ```admin``` and password will be ```pass```.
+![image](https://github.com/user-attachments/assets/5fc70c8f-61b5-4696-b94a-721bd857bcf1)
+
+We can see here there is no database with name ```datapirates```(we created before). It's because when we restart our container it became reset.
+So we create the user in same way as before
+
+4. Go to ```localhost:5050``` and get the doccument
+   
+![image](https://github.com/user-attachments/assets/de9b5e9b-795b-4508-bf89-fd18dd904a1f)
+
+5. If we want to remove the container with network.
+```bash
+    docker compose -f mongodb.yaml down
+```
+This will remove all the container with network.
+
+## Dockerizing our App
+Converting our ap to docker image then docker container.
+
+Test app --->> docker image --->> container
+>>>>>>> 775f9f8150e5c7cfbc05e5d73f20f725a3915416
