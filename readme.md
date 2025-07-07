@@ -328,3 +328,37 @@ Converting our ap to docker image then docker container.
 Test app --->> docker image --->> container
 >>>>>>> 775f9f8150e5c7cfbc05e5d73f20f725a3915416
 A Dockerfile is a plain text file containing a set of instructions used to build a Docker image.
+
+For mode you can follow https://spacelift.io/blog/dockerfile
+
+Important instruction of dockerfile
+
+- FROM
+Specifies the base image for the Docker image being built. It acts as the foundation upon which the rest of the image is built.
+    FROM <base_image>
+
+- WORKDIR
+Sets the working directory inside the container for subsequent instructions like RUN, COPY, CMD, etc.
+    WORKDIR <path>
+
+- COPY
+Copies files and directories from the build context (your local machine) into the image.
+    COPY <src> <dest>
+
+- RUN
+Executes shell commands during the image build process. These commands are run in new layers, and the results are committed to the image.
+    RUN <command>
+
+- CMD
+Provides default instructions for running a container based on the image. It defines the command that will be executed when a container starts without any specific command-line arguments.
+    CMD <command>
+
+- EXPOSE
+Informs Docker that the container listens on the specified network port at runtime. It's a form of documentation rather than a publishing mechanism.
+    EXPOSE <port>
+
+- ENV
+Sets environment variables that can be used within the container.
+    ENV <name> <value>
+
+
