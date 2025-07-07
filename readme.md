@@ -372,4 +372,8 @@ Sets environment variables that can be used within the container.
     ENV <name> <value>
 ```
 
-![alt text](image-15.png)
+![layers ](image-15.png)
+
+Now let's create a Dockerfile for our node application
+
+![Dockerfile](image-16.png)
