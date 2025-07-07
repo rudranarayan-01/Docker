@@ -439,5 +439,5 @@ Here  logged in using one time code(device verfication)
 
 6. Now we can push the repo 
 ```bash 
-    docker push rudranarayan01/testapp
+    docker push rudranarayan01/testapp:latest
 ```
