@@ -377,3 +377,9 @@ Sets environment variables that can be used within the container.
 Now let's create a Dockerfile for our node application
 
 ![Dockerfile](image-16.png)
+
+Now to build a docker image from this file we need to run this command 
+
+```bash
+    docker build -t testapp:1.0 .
+```
