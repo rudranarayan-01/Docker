@@ -409,3 +409,35 @@ Now we can see that we have node_modules folder inside our container which we do
 ![node_modules](image-21.png)
 
 Let's exit from the interractive terminal of container by typing ```exit``` inside it and enter. Now we have three docker images(we can als check by typing ```docker images``` inside the terminal). To run this three terminals simultaneously we can use the compose.
+
+## Publishing Images in Dockerhub
+1. Go to docker hub https://hub.docker.com/ and authenticate 
+
+2. Go to My Profile --->> My hub -->> repository
+
+3. Create a repo and copy the name (may be public or private)
+![repo](image-22.png)
+
+4. build with that repo 
+```bash
+    docker build -t rudranarayan01/testapp .
+```
+![building](image-23.png)
+
+Now there is a new image in docker desktop wit name ```rudranarayan01/testapp```
+
+5. Now docker login in terminal with docker hub credentials  (we are first logged in using doker desktop credentials so logout by entering ```docker logout```)
+
+```bash
+    docker login
+```
+![login](image-25.png)
+
+Here  logged in using one time code(device verfication)
+
+![sucess](image-24.png)
+
+6. Now we can push the repo 
+```bash 
+    docker push rudranarayan01/testapp
+```
