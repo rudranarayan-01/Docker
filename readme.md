@@ -263,3 +263,5 @@ Goto localhost:5050 and fill the details and refresh the mongo-express dashboard
 ![users](image-14.png)
 
 Now we are sucessfully connected with docker container.
+
+## Docker Compose
