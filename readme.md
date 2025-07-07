@@ -383,4 +383,7 @@ Now to build a docker image from this file we need to run this command
 ```bash
     docker build -t testapp:1.0 .
 ```
+![building](image-18.png)
+
+Now we can check the available images by typing ```docker images``` in terminal
 
