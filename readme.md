@@ -264,9 +264,6 @@ Goto localhost:5050 and fill the details and refresh the mongo-express dashboard
 
 Now we are sucessfully connected with docker container.
 
-<<<<<<< HEAD
-## Docker Compose
-=======
 ## Docker Compose 
 Docker compose is a tool for defining and running multicontainer application. 
 This will be done with the help of a ```.yaml``` file. 
@@ -326,7 +323,7 @@ This will remove all the container with network.
 Converting our ap to docker image then docker container.
 
 Test app --->> docker image --->> container
->>>>>>> 775f9f8150e5c7cfbc05e5d73f20f725a3915416
+
 A Dockerfile is a plain text file containing a set of instructions used to build a Docker image.
 
 For mode you can follow https://spacelift.io/blog/dockerfile
