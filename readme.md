@@ -490,17 +490,17 @@ Then run the ```yaml``` file (must ensure that we have no running container)
     docker volume rm VOL_NAME
 ```
 
-Named Volumes
+Named Volumes(Managed by docker)
 ```bash 
     docker run -v VOL_NAME:CONT_DIR
 ```
 
-Bind Mount
+Bind Mount(Managed by host only)
 ```bash 
     docker run -v HOST_DIR:CONT_DIR
 ```
 
-Anonomous Volume
+Anonomous Volume (Managed by docker)
 ```bash 
     docker run -v MOUNT_PATH
 ```
