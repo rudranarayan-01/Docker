@@ -441,3 +441,17 @@ Here  logged in using one time code(device verfication)
 ```bash 
     docker push rudranarayan01/testapp:latest
 ```
+
+![doc hub pushed](image-26.png)
+
+## Docker Volumes
+ 
+Volumes are persistent data stores for containers. Containers stores data in virtual mode like if we restart the docker desktop all the data all the container will be reset.
+
+- Persistent storage for containers: Data stored in a volume survives container restarts and deletions.
+- Docker managed: Volumes are created, managed, and stored by Docker, typically in /var/lib/docker/volumes on Linux.
+- Mounted to container paths: Data written to the mounted directory in the container goes to the volume.
+- Data sharing: Multiple containers can access and modify the same volume.
+- Easy backup and restore: Volumes simplify data backup and recovery processes.
+- Named vs. Anonymous: Named volumes are user-defined and recommended, while anonymous volumes are automatically created and tied to the container's lifecycle.
+- Volume drivers: Allow storing volumes on remote hosts or cloud providers. 
