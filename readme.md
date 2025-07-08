@@ -466,3 +466,41 @@ Here u I'm giving the path where docker container will be store, and RUDRANARAYA
 ![volume](image-27.png)
 
 Now go to inside data folder ``` cd data```, and then create two new file ``` touch index.html``` and ```touch server.js```.
+
+To mount our project we can just add a volume inside ```mongodb.yaml``` file
+
+![yaml update](image-28.png)
+
+Then run the ```yaml``` file (must ensure that we have no running container)
+
+```bash
+    docker compose -f mongodb.yaml  up 
+```
+
+## Docker Volume Commands
+
+```bash 
+    docker volume ls
+```
+```bash
+    docker volume create VOL_NAME
+```
+
+```bash 
+    docker volume rm VOL_NAME
+```
+
+Named Volumes
+```bash 
+    docker run -v VOL_NAME:CONT_DIR
+```
+
+Bind Mount
+```bash 
+    docker run -v HOST_DIR:CONT_DIR
+```
+
+Anonomous Volume
+```bash 
+    docker run -v MOUNT_PATH
+```
