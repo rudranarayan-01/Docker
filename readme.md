@@ -489,7 +489,7 @@ Then run the ```yaml``` file (must ensure that we have no running container)
 ```bash 
     docker volume rm VOL_NAME
 ```
-
+-------------------------------------------------------
 Named Volumes(Managed by docker)
 ```bash 
     docker run -v VOL_NAME:CONT_DIR
@@ -510,3 +510,4 @@ Delete all ananomous volumes
 ```bash
     docker volume prune
 ```
+
