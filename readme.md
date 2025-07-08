@@ -504,3 +504,9 @@ Anonomous Volume (Managed by docker)
 ```bash 
     docker run -v MOUNT_PATH
 ```
+
+
+Delete all ananomous volumes
+```bash
+    docker volume prune
+```
