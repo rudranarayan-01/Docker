@@ -446,7 +446,7 @@ Here  logged in using one time code(device verfication)
 
 ## Docker Volumes
  
-Volumes are persistent data stores for containers. Containers stores data in virtual mode like if we restart the docker desktop all the data all the container will be reset.
+Volumes are persistent data stores for containers. Containers stores data in virtual mode like if we restart the docker desktop all the data all the container will be reset. We can map multiple container in  a single volume.
 
 - Persistent storage for containers: Data stored in a volume survives container restarts and deletions.
 - Docker managed: Volumes are created, managed, and stored by Docker, typically in /var/lib/docker/volumes on Linux.
@@ -455,3 +455,14 @@ Volumes are persistent data stores for containers. Containers stores data in vir
 - Easy backup and restore: Volumes simplify data backup and recovery processes.
 - Named vs. Anonymous: Named volumes are user-defined and recommended, while anonymous volumes are automatically created and tied to the container's lifecycle.
 - Volume drivers: Allow storing volumes on remote hosts or cloud providers. 
+
+We use ```-v``` tag for defining volume.
+
+```bash 
+    docker run -it -v /Users/RUDRANARAYAN/Desktop/data:/test/data ubuntu 
+```
+Here u I'm giving the path where docker container will be store, and RUDRANARAYAN is my device name or hostname.
+
+![volume](image-27.png)
+
+Now go to inside data folder ``` cd data```, and then create two new file ``` touch index.html``` and ```touch server.js```.
