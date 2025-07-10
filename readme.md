@@ -309,7 +309,7 @@ Now we can see that two container are running on the spesified port
 We can see here there is no database with name ```datapirates```(we created before). It's because when we restart our container it became reset.
 So we create the user in same way as before
 
-4. Go to ```localhost:5050``` and get the doccument
+4. Go to ```localhost:5050``` and get the doccument 
    
 ![image](https://github.com/user-attachments/assets/de9b5e9b-795b-4508-bf89-fd18dd904a1f)
 
